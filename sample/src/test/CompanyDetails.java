@@ -11,11 +11,15 @@ public class CompanyDetails { //Class Name
 		public void companyAddress() { //Method Name	
 		       System.out.println("ABC Manufacturing Company, Chennai, Tamil Nadu");
 		}	
+                public void companyworkername() { //Method Name	
+		       System.out.println("Siva");
+		}	
+	
 		public static void main(String[] args) { //Main method 
 			CompanyDetails c = new CompanyDetails(); //Object
 			c.companyName();
 			c.companyId();
 			c.companyAddress();
-			
+			c.companyworkername();
 	}}
 
